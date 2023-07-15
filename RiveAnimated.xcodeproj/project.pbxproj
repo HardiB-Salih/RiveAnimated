@@ -28,6 +28,14 @@
 		D52F10E72A61E54E002A9A62 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10E62A61E54E002A9A62 /* CustomTextField.swift */; };
 		D52F10EA2A61E7A9002A9A62 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10E92A61E7A9002A9A62 /* RoundedCorner.swift */; };
 		D52F10EC2A61E83D002A9A62 /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10EB2A61E83D002A9A62 /* Color+Extention.swift */; };
+		D52F10EE2A627768002A9A62 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10ED2A627768002A9A62 /* TabBar.swift */; };
+		D52F10F22A628381002A9A62 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10F02A628380002A9A62 /* CourseSection.swift */; };
+		D52F10F32A628381002A9A62 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10F12A628380002A9A62 /* Course.swift */; };
+		D52F10F62A6283CF002A9A62 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10F52A6283CF002A9A62 /* VCard.swift */; };
+		D52F10F82A6285F9002A9A62 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10F72A6285F9002A9A62 /* HCard.swift */; };
+		D52F10FA2A6286BF002A9A62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10F92A6286BF002A9A62 /* HomeView.swift */; };
+		D52F10FC2A6289D9002A9A62 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10FB2A6289D9002A9A62 /* SideMenu.swift */; };
+		D52F10FE2A628DFE002A9A62 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F10FD2A628DFE002A9A62 /* MenuRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +61,14 @@
 		D52F10E62A61E54E002A9A62 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		D52F10E92A61E7A9002A9A62 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		D52F10EB2A61E83D002A9A62 /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
+		D52F10ED2A627768002A9A62 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D52F10F02A628380002A9A62 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		D52F10F12A628380002A9A62 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		D52F10F52A6283CF002A9A62 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		D52F10F72A6285F9002A9A62 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		D52F10F92A6286BF002A9A62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D52F10FB2A6289D9002A9A62 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		D52F10FD2A628DFE002A9A62 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,8 @@
 		D52F10B32A61D564002A9A62 /* RiveAnimated */ = {
 			isa = PBXGroup;
 			children = (
+				D52F10F42A6283BD002A9A62 /* Component */,
+				D52F10EF2A628380002A9A62 /* Model */,
 				D52F10E82A61E782002A9A62 /* Extentions */,
 				D52F10E12A61DFE8002A9A62 /* Custom */,
 				D52F10E02A61DF17002A9A62 /* Info.plist */,
@@ -127,6 +145,9 @@
 			children = (
 				D52F10D72A61D741002A9A62 /* OnboardingView.swift */,
 				D52F10E42A61E2AA002A9A62 /* SignInView.swift */,
+				D52F10ED2A627768002A9A62 /* TabBar.swift */,
+				D52F10F92A6286BF002A9A62 /* HomeView.swift */,
+				D52F10FB2A6289D9002A9A62 /* SideMenu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +178,25 @@
 				D52F10EB2A61E83D002A9A62 /* Color+Extention.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D52F10EF2A628380002A9A62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D52F10F02A628380002A9A62 /* CourseSection.swift */,
+				D52F10F12A628380002A9A62 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D52F10F42A6283BD002A9A62 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D52F10F52A6283CF002A9A62 /* VCard.swift */,
+				D52F10F72A6285F9002A9A62 /* HCard.swift */,
+				D52F10FD2A628DFE002A9A62 /* MenuRow.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52F10F82A6285F9002A9A62 /* HCard.swift in Sources */,
+				D52F10FA2A6286BF002A9A62 /* HomeView.swift in Sources */,
+				D52F10EE2A627768002A9A62 /* TabBar.swift in Sources */,
+				D52F10F32A628381002A9A62 /* Course.swift in Sources */,
 				D52F10EC2A61E83D002A9A62 /* Color+Extention.swift in Sources */,
+				D52F10FE2A628DFE002A9A62 /* MenuRow.swift in Sources */,
 				D52F10D82A61D741002A9A62 /* OnboardingView.swift in Sources */,
 				D52F10E32A61DFF6002A9A62 /* CustomFont.swift in Sources */,
+				D52F10F22A628381002A9A62 /* CourseSection.swift in Sources */,
+				D52F10F62A6283CF002A9A62 /* VCard.swift in Sources */,
 				D52F10E72A61E54E002A9A62 /* CustomTextField.swift in Sources */,
 				D52F10B72A61D564002A9A62 /* ContentView.swift in Sources */,
 				D52F10B52A61D564002A9A62 /* RiveAnimatedApp.swift in Sources */,
+				D52F10FC2A6289D9002A9A62 /* SideMenu.swift in Sources */,
 				D52F10E52A61E2AA002A9A62 /* SignInView.swift in Sources */,
 				D52F10EA2A61E7A9002A9A62 /* RoundedCorner.swift in Sources */,
 			);
