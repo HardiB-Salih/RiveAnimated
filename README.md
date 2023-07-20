@@ -61,7 +61,7 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 
 ## License
 
-RiveAnimated is open-source and distributed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+RiveAnimated is open-source and distributed under the [MIT License](https://innovativecandor.com/mit_license/). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ---
 
