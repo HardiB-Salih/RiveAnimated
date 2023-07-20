@@ -22,7 +22,7 @@ RiveAnimated uses a package management system for easy installation of dependenc
 1. Clone the RiveAnimated repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/rive-animated.git
+git clone https://github.com/HardiB-Salih/RiveAnimated.git
 ```
 
 2. Navigate to the project directory:
