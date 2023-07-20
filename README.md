@@ -50,9 +50,9 @@ open RiveAnimated.xcodeproj
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Home.png" alt="Home Screen" width="300">
-  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Login.png" alt=Login Screen" width="300">
-  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Sidebar.png" alt="Sidebar Screen" width="300">
+  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Home.png" alt="Home Screen" width="200">
+  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Login.png" alt=Login Screen" width="200">
+  <img src="https://filedn.com/lgYM5v25LH64Wknu6KIrjpj/Client%20Project/Innovative%20Candor/GitHub/RiveAnimated/Sidebar.png" alt="Sidebar Screen" width="200">
 </div>
 
 ## Feedback and Support
